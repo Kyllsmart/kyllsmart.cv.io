@@ -1,0 +1,21 @@
+.mainconteneur{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.cercle{
+    border: solid red 1px;
+    border-radius: 100%;
+    background-color: green;
+    margin-right:90%;
+    text-align:center;
+}
+
+.partie{
+    background-color: darkgray;
+    border: solid blue 1px;
+    margin-top:10px;
+    width:200px;
+}

@@ -1,0 +1,244 @@
+@font-face {
+  font-family: morris;
+  src: url(./Polices/morris_roman/MorrisRomanBlack.ttf);
+}
+
+@font-face {
+  font-family: morris1;
+  src: url(./Polices/morris_roman/MorrisRomanBlackAlt.ttf);
+}
+
+@font-face {
+  font-family: pamela;
+  src: url(./Polices/pamela/Pamela.ttf);
+}
+
+@font-face {
+  font-family: pauls;
+  src: url(./Polices/pauls_celtic_font_3/Pauls\ Celtic\ Font\ 3.ttf);
+}
+@font-face {
+  font-family: chinese;
+  src: url(./Polices/chinese_dragon/ChineseDragon.ttf);
+}
+@font-face {
+  font-family: harukaze;
+  src: url(./Polices/harukaze/Harukaze.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.462), rgba(255, 255, 255, 0.303)) no-repeat fixed center, url(./Images/thumb-1920-371664.jpg) no-repeat fixed center;
+  background-size: cover;
+  font-family: morris;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+
+}
+
+header {
+  width: 98.5%;
+  height: 110px;
+  border: solid 2px rgba(4, 85, 122, 0.55);
+  background-color:  rgba(97, 205, 252, 0.424);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#menu {
+  font-family: pamela;
+  list-style-type: none;
+  font-size: 35px;
+  text-decoration: underline rgb(116, 7, 250);
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  text-decoration: underline rgb(116, 7, 250);
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+
+}
+
+h1 {
+  /* text-align: center; */
+  font-family: pamela;
+  color: black;
+  text-decoration: underline rgb(116, 7, 250);
+  font-size: 55px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+p::first-letter {
+  font-family: pauls;
+  color: rgb(89, 6, 255);
+  font-size: 50px;
+  background-color: rgba(1, 167, 217, 0.639);
+  padding: 2px;
+  border-radius: 8px;
+}
+div::first-letter{
+  font-family: pauls;
+  color: rgb(153, 102, 254);
+}
+p {
+  /* border-top: 10px solid;
+       border-bottom: 10px solid; */
+  /* text-align: center; */
+  /* margin: px; */
+  font-family: pauls;
+  font-size: 25px;
+  padding: 1px;
+  color: black;
+
+}
+
+.yang {
+  display: none;
+  position: absolute;
+
+}
+.cacher{
+  background-color: rgba(97, 205, 252, 0.29);
+  width: 10%;
+  padding: 20px;
+  border-radius: 20%;
+}
+/* EN TETE! */
+
+
+
+/* body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    } */
+main {
+  position: relative;
+  top: 10px;
+  width: 1600px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  margin: 1%;
+  margin-top: 10%;
+
+}
+
+main section {
+  /* background-color: orange; */
+  position: relative;
+  max-width: 2050px;
+  padding: 5px;
+  display: flex;
+}
+
+/* fenetre de numerique */
+main section div {
+  /* background-color:red; */
+  border-left: rgb(1, 193, 251) solid 5px;
+  border-top: rgb(1, 166, 217) solid 5px;
+  background-color: #add8e632;
+  border-bottom-right-radius: 20%;
+   border-top-left-radius: 10%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200;
+  /* width: 2020px; */
+  color: rgb(91, 3, 255);
+  font-family: pauls;
+}
+
+/* logo panda */
+main figure img {
+  /* max-width: 300px;
+  border-radius: 30%;
+  position: relative;
+  bottom: -50px:
+  left: 35px;
+  gap: 16px; */
+  height: 300px;
+  margin-top: 85%;
+  transform: translateX(-10%);
+}
+
+  /* object-fit: cover; */
+  /* z-index: 1; */
+}
+
+/* les 5 logos */
+/* main section figure {
+      /* max-width: 200px; */
+/* border-radius: 50%; */
+/* position: relative; */
+/* top: 0px; */
+/* left: px;
+      display: flex;
+      flex-direction: column-reverse; */
+/* flex-wrap: wrap-reverse; */
+/* gap: 16px; */
+}
+
+*/
+/* main section div .logo {
+      width: 100px;
+      height: 150px;  
+      object-fit: cover;
+      display: flex; */
+/* flex-direction: center; */
+/* border-radius: 50%; */
+}
+
+/* fenetre de texte */
+/* .li {
+      background-color:#fa04cd;
+      border-left: white solid 1px;
+      border-radius: 20px;
+      padding: 40px;
+      height: 300px;
+      width: 458px;
+    } */
+
+/* texte */
+/* .li {
+       /* list-style: none; */
+
+font-family: pauls;
+font-size: 20px;
+
+}
+
+*/
+/* .last
+    {
+        position: relative;
+        left: 25%;
+        top: 100px;
+    } */

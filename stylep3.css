@@ -1,0 +1,285 @@
+@font-face {
+  font-family: morris;
+  src: url(./Polices/morris_roman/MorrisRomanBlack.ttf);
+}
+
+@font-face {
+  font-family: morris1;
+  src: url(./Polices/morris_roman/MorrisRomanBlackAlt.ttf);
+}
+
+@font-face {
+  font-family: pamela;
+  src: url(./Polices/pamela/Pamela.ttf);
+}
+
+@font-face {
+  font-family: pauls;
+  src: url(./Polices/pauls_celtic_font_3/Pauls\ Celtic\ Font\ 3.ttf);
+}
+@font-face {
+  font-family: chinese;
+  src: url(./Polices/chinese_dragon/ChineseDragon.ttf);
+}
+@font-face {
+  font-family: harukaze;
+  src: url(./Polices/harukaze/Harukaze.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.462),rgba(255, 255, 255, 0.396)) no-repeat fixed center, url(./Images/thumb-1920-371664.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-family: morris;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    }
+
+    header {
+      width: 98.5%;
+      height: 110px;
+      border: solid 2px rgba(4, 85, 122, 0.55);
+      background-color:  rgba(97, 205, 252, 0.424);
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+ul{
+    display: flex;
+}
+a:visited{
+    text-decoration: none; 
+    color: white;
+}
+a:link{
+        text-decoration: none; 
+        color: black;
+    }
+    #menu{
+      font-family: pamela;
+      list-style-type: none;
+      font-size: 35px;
+      text-decoration: underline rgb(116, 7, 250);
+    }
+    ul li {
+      list-style: none;
+      padding: 5px;
+      text-decoration: underline rgb(116, 7, 250);
+      
+    }
+    figure{
+        padding: 0;
+        margin: 0;
+        
+     }
+     h1{
+        /* text-align: center; */
+  font-family: pamela;
+  color: black;
+  text-decoration: underline rgb(116, 7, 250);
+  font-size: 55px;
+  font-style: italic;
+  font-weight: 100;
+     }
+     p::first-letter {
+      font-family: pauls;
+      color: rgb(89, 6, 255);
+      font-size: 50px;
+      background-color: rgba(1, 167, 217, 0.639);
+      padding: 2px;
+      border-radius: 8px;
+    }
+    div::first-letter{
+      font-family: pauls;
+      color: rgb(153, 102, 254);
+    }
+     p{
+         /* border-top: rgb(68, 184, 246)  2px solid;
+         /* border-bottom: 10px solid; */
+        /* border-left: rgb(68, 184, 246) solid 2px; */
+        /* text-align: center; */
+        /* background-color:#fa04cd; */
+        margin: 55px;
+         font-size: 25px;
+        padding-top: 0px;
+        padding-right: 50px;
+        padding-left: 20px;
+        color: black;
+     
+     }
+     .yang {
+      display: none;
+      position: absolute;
+    
+    }
+    .cacher{
+      background-color: rgba(97, 205, 252, 0.29);
+      width: 10%;
+      padding: 20px;
+      border-radius: 20%;
+    }
+    /* EN TETE! */
+
+     
+      /* body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      } */
+      main {
+        position: relative;
+        top: 100px;
+        width: 1600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      main section {
+        /* background-color: orange; */
+        position: relative;
+        max-width: 950px;
+        margin: 20px;
+        padding: 15px;
+        display: flex;
+        margin-bottom: 100px;
+      }
+      main section figure {
+        max-width: 200px;
+        border-radius: 50%;
+        position: relative;
+        top: -60px;
+        left: 25px;
+        gap: 16px;
+      }
+      /* logo principal */
+      main section figure img {
+        max-width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 30%;
+        position: relative;
+        z-index: 1;
+      }
+      main section div .logo {
+        width: 100px;
+        height: 150px;  
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+        /* border-radius: 50%; */
+      }
+      /* fenetre de texte */
+      main section div {  
+        /* background-color: yellow; */
+        border-left: white solid 1px;
+        background-color:#add8e630;
+        border-radius: 20px;
+        padding: 35px;
+        padding-left: 1px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        height: 200px;
+        width: 450px;
+        font-family: morris, sans-serif;
+        color: black;
+        
+      }
+      main section ul {
+        margin-left: 20px;
+        border-left: white solid 1px;
+        background-color:#add8e630;
+        border-radius: 20px;
+        margin-left: 0;
+        padding: 50px;
+        height: 20px;
+        width: 50px;
+      }
+      
+      /* .last
+      {
+          position: relative;
+          left: 25%;
+          top: 100px;
+      } */
+      .dates{
+        order: 10;
+        font-family: pauls;
+        color: rgb(20, 102, 245);
+        font-size: 40px;
+        border-left: rgb(0, 255, 247) solid 1px;
+        background-color:#2cfce450;
+        border-radius: 50%;
+        position: relative;
+        width: 400px;
+        height: 4px;
+        margin-top: 100px;
+        border-bottom: solid 8px;
+        margin-bottom: 25px;
+        } 
+        .datessection{
+          order: 10;
+        font-family: pauls;
+        color: rgb(20, 102, 245);
+        font-size: 40px;
+        border-left: rgb(0, 255, 247) solid 1px;
+        background-color:#2cfce450;
+        border-radius: 50%;
+        position: relative;
+        width: 250px;
+        height: 4px;
+        margin-top: 100px;
+        border-bottom: solid 8px;
+        margin-bottom: 0px;
+        position: absolute;
+       z-index: 3;
+       /* width: 40%; */
+       left: 358px;
+       top: -120px;
+        }
+        .datessection1{
+          order: 10;
+        font-family: pauls;
+        color: rgb(20, 102, 245);
+        font-size: 40px;
+        border-left: rgb(0, 255, 247) solid 1px;
+        background-color:#2cfce450;
+        border-radius: 50%;
+        position: relative;
+        width: 300px;
+        height: 4px;
+        margin-top: px;
+        border-bottom: solid 8px;
+        margin-bottom: 10px;
+        position: absolute;
+        z-index: 2;
+        /* width: %; */
+        left: 250px;
+        top: -75px;
+        height: 0.1em;
+        }
+        h2{
+            /* margin: 10%; */
+           /* background-color:#fa04cd; */
+           font-family: morris;
+            font-size: 30px;
+           text-align: center;
+           width: 250%;
+           height: 200%;
+           padding: 5px;
+           color: rgb(5, 5, 5);
+        margin-top: 100px;
+        }
+        #text{
+          /* background-color:#fa04cd; */
+          margin: 1px;
+         font-size: 22px;
+        padding-top: 0px;
+        padding-right: 50px;
+        padding-left: 40px;
+        color: black;
+        }
